@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4CAA891DF691F4006BA1AE /* XWWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CAA881DF691F4006BA1AE /* XWWaterFallLayout.swift */; };
 		2E95F41B1DF55EB700A41A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95F41A1DF55EB700A41A32 /* AppDelegate.swift */; };
 		2E95F41D1DF55EB700A41A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95F41C1DF55EB700A41A32 /* ViewController.swift */; };
 		2E95F4201DF55EB700A41A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E95F41E1DF55EB700A41A32 /* Main.storyboard */; };
 		2E95F4221DF55EB700A41A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E95F4211DF55EB700A41A32 /* Assets.xcassets */; };
 		2E95F4251DF55EB700A41A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E95F4231DF55EB700A41A32 /* LaunchScreen.storyboard */; };
+		2E95F4321DF5707D00A41A32 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95F4311DF5707D00A41A32 /* UIColor_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E4CAA881DF691F4006BA1AE /* XWWaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XWWaterFallLayout.swift; path = XWWaterFallSwiftDemo/XWWaterFallLayout.swift; sourceTree = SOURCE_ROOT; };
 		2E95F4171DF55EB700A41A32 /* XWWaterFallSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWWaterFallSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E95F41A1DF55EB700A41A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E95F41C1DF55EB700A41A32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		2E95F4211DF55EB700A41A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E95F4241DF55EB700A41A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E95F4261DF55EB700A41A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E95F4311DF5707D00A41A32 /* UIColor_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				2E95F4211DF55EB700A41A32 /* Assets.xcassets */,
 				2E95F4231DF55EB700A41A32 /* LaunchScreen.storyboard */,
 				2E95F4261DF55EB700A41A32 /* Info.plist */,
+				2E95F4311DF5707D00A41A32 /* UIColor_Extension.swift */,
 			);
 			path = XWWaterFallSwiftDemo;
 			sourceTree = "<group>";
@@ -68,6 +73,7 @@
 		2E95F42C1DF55F0A00A41A32 /* XWWaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				2E4CAA881DF691F4006BA1AE /* XWWaterFallLayout.swift */,
 			);
 			path = XWWaterFall;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E95F41D1DF55EB700A41A32 /* ViewController.swift in Sources */,
+				2E4CAA891DF691F4006BA1AE /* XWWaterFallLayout.swift in Sources */,
 				2E95F41B1DF55EB700A41A32 /* AppDelegate.swift in Sources */,
+				2E95F4321DF5707D00A41A32 /* UIColor_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +318,7 @@
 				2E95F42B1DF55EB700A41A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
