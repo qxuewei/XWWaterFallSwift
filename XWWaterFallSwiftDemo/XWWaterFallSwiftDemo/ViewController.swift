@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let itemMargin : CGFloat = 10
         layout.minimumLineSpacing = itemMargin
         layout.minimumInteritemSpacing = itemMargin
-        layout.sectionInset = UIEdgeInsets(top: itemMargin, left: itemMargin, bottom: itemMargin, right: itemMargin)
+        layout.sectionInset = UIEdgeInsets(top: 0, left: itemMargin, bottom: itemMargin, right: itemMargin)
         layout.dataSource = self
         
         let collectionView : UICollectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: layout)

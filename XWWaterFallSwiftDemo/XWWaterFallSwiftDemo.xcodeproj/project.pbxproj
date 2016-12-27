@@ -16,6 +16,19 @@
 		2E95F4321DF5707D00A41A32 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95F4311DF5707D00A41A32 /* UIColor_Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2E1123381DF7A3E30096F513 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2E4CAA881DF691F4006BA1AE /* XWWaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XWWaterFallLayout.swift; path = XWWaterFallSwiftDemo/XWWaterFallLayout.swift; sourceTree = SOURCE_ROOT; };
 		2E95F4171DF55EB700A41A32 /* XWWaterFallSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWWaterFallSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +101,7 @@
 				2E95F4131DF55EB700A41A32 /* Sources */,
 				2E95F4141DF55EB700A41A32 /* Frameworks */,
 				2E95F4151DF55EB700A41A32 /* Resources */,
+				2E1123381DF7A3E30096F513 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
